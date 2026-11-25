@@ -49,6 +49,7 @@
 
 | 模块 | 核心方法 | 适用任务 | 推理环境 | 仓库与权重 |
 | :--- | :--- | :--- | :--- | :--- |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg"><img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="16" align="absmiddle"></picture> **[Cyto.Identity](https://github.com/Cyto-System/Cyto.Identity)** | **scVerity**（循证推理单细胞注释） | 开放世界细粒度单细胞注释、本体证据链核验与罕见亚群发现 | 自适应流形 + 智能体/元评审 | [GitHub](https://github.com/Cyto-System/Cyto.Identity) |
 | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg"><img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="16" align="absmiddle"></picture> **[Cyto.Perturbation](https://github.com/Cyto-System/Cyto.Perturbation)** | **RELAY**（均值锚定稠密响应对比迁移） | 未见 CRISPRi 遗传敲低、未见细胞系零样本迁移、未见小分子化合物扰动预测 | 纯 CPU（全量评测约 7.6 s） | [GitHub](https://github.com/Cyto-System/Cyto.Perturbation) · [Hugging Face](https://huggingface.co/KassdinZheng/Cyto.Perturbation) |
 
 <sub>Cyto 时空细胞家族的其他功能模块将在完成验证后陆续发布并纳入此列表。</sub>
