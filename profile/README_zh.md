@@ -12,7 +12,7 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg">
     <img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="28" align="absmiddle">
   </picture>
-  &nbsp;Cyto 虚拟细胞模型家族
+  &nbsp;Cyto 时空细胞模型家族
 </h1>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>华大研究院 · 北京中关村学院联合研发</strong><br>
-  <sub>构建模块化、可验证、易部署的虚拟细胞计算模型体系</sub>
+  <sub>构建模块化、可验证、易部署的时空细胞计算模型体系</sub>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 
 ## 关于 Cyto 模型家族
 
-**Cyto** 是由**华大研究院**与**北京中关村学院**联合研发的虚拟细胞模型家族。**Cyto System** 采用模块化思路组织虚拟细胞建模能力，将先验生物知识、高通量单细胞观测与严格评测体系结合，面向真实科研与计算生物学场景提供透明、可复现的模型与工具。
+**Cyto** 是由**华大研究院**与**北京中关村学院**联合研发的时空细胞模型家族。**Cyto System** 采用模块化思路组织时空细胞建模能力，将先验生物知识、高通量单细胞观测与严格评测体系结合，面向真实科研与计算生物学场景提供透明、可复现的模型与工具。
 
 核心设计原则：
 
@@ -51,13 +51,13 @@
 | :--- | :--- | :--- | :--- | :--- |
 | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg"><img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="16" align="absmiddle"></picture> **[Cyto.Perturbation](https://github.com/Cyto-System/Cyto.Perturbation)** | **RELAY**（均值锚定稠密响应对比迁移） | 未见 CRISPRi 遗传敲低、未见细胞系零样本迁移、未见小分子化合物扰动预测 | 纯 CPU（全量评测约 7.6 s） | [GitHub](https://github.com/Cyto-System/Cyto.Perturbation) · [Hugging Face](https://huggingface.co/KassdinZheng/Cyto.Perturbation) |
 
-<sub>Cyto 虚拟细胞家族的其他功能模块将在完成验证后陆续发布并纳入此列表。</sub>
+<sub>Cyto 时空细胞家族的其他功能模块将在完成验证后陆续发布并纳入此列表。</sub>
 
 ---
 
 ## 代表模块：Cyto.Perturbation (RELAY)
 
-**[Cyto.Perturbation (RELAY)](https://github.com/Cyto-System/Cyto.Perturbation)** 是 **Cyto** 虚拟细胞模型家族中的单细胞扰动预测模块。该方法不依赖大语言模型、仅需纯 CPU 即可秒级运行，面向未见遗传敲低与未见小分子化合物扰动输出校准后的差异表达判定（DE）、上下调方向判定（DIR）、联合三分类结果（`non_de` / `down` / `up`）以及全转录组连续响应谱。
+**[Cyto.Perturbation (RELAY)](https://github.com/Cyto-System/Cyto.Perturbation)** 是 **Cyto** 时空细胞模型家族中的单细胞扰动预测模块。该方法不依赖大语言模型、仅需纯 CPU 即可秒级运行，面向未见遗传敲低与未见小分子化合物扰动输出校准后的差异表达判定（DE）、上下调方向判定（DIR）、联合三分类结果（`non_de` / `down` / `up`）以及全转录组连续响应谱。
 
 ### 核心机制
 

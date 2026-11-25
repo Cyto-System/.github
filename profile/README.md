@@ -12,7 +12,7 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg">
     <img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="28" align="absmiddle">
   </picture>
-  &nbsp;Cyto Virtual Cell Model Family
+  &nbsp;Cyto Spatiotemporal Cell Model Family
 </h1>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>Jointly developed by BGI Research &amp; Zhongguancun Academy</strong><br>
-  <sub>Building modular, verifiable, and practical computational models for virtual cell simulation and cellular response prediction.</sub>
+  <sub>Building modular, verifiable, and practical computational models for spatiotemporal cell simulation and cellular response prediction.</sub>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 
 ## About the Cyto Family
 
-**Cyto** is a family of virtual cell models jointly developed by **BGI Research** and **Zhongguancun Academy**. Rather than treating cellular modeling as a single opaque black box, **Cyto System** organizes virtual cell capabilities into focused, composable modules with explicit biological grounding, leak-free evaluation protocols, and lightweight deployment.
+**Cyto** is a family of spatiotemporal cell models jointly developed by **BGI Research** and **Zhongguancun Academy**. Rather than treating cellular modeling as a single opaque black box, **Cyto System** organizes spatiotemporal cell capabilities into focused, composable modules with explicit biological grounding, leak-free evaluation protocols, and lightweight deployment.
 
 Our core design principles:
 
@@ -51,13 +51,13 @@ Our core design principles:
 | :--- | :--- | :--- | :--- | :--- |
 | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg"><img alt="Cyto" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_logo_light.svg" width="16" align="absmiddle"></picture> **[Cyto.Perturbation](https://github.com/Cyto-System/Cyto.Perturbation)** | **RELAY** (Anchored Dense Response Contrast Transfer) | Unseen genetic knockdowns (CRISPRi), zero-shot cross-cell transfer, and unseen small-molecule compounds | CPU-only (~7.6 s full suite) | [GitHub](https://github.com/Cyto-System/Cyto.Perturbation) · [Hugging Face](https://huggingface.co/KassdinZheng/Cyto.Perturbation) |
 
-<sub>Additional modules in the Cyto virtual cell family will be added to this repository index as they are released.</sub>
+<sub>Additional modules in the Cyto spatiotemporal cell family will be added to this repository index as they are released.</sub>
 
 ---
 
 ## Featured Module: Cyto.Perturbation (RELAY)
 
-**[Cyto.Perturbation (RELAY)](https://github.com/Cyto-System/Cyto.Perturbation)** is the perturbation-prediction module of the **Cyto** virtual cell model family. It predicts differential expression (**DE**), direction of change (**DIR**), calibrated three-class calls (**`non_de` / `down` / `up`**), and full-transcriptome continuous response profiles for unseen genetic knockdowns and small-molecule compounds—without a language model and running entirely on **CPU**.
+**[Cyto.Perturbation (RELAY)](https://github.com/Cyto-System/Cyto.Perturbation)** is the perturbation-prediction module of the **Cyto** spatiotemporal cell model family. It predicts differential expression (**DE**), direction of change (**DIR**), calibrated three-class calls (**`non_de` / `down` / `up`**), and full-transcriptome continuous response profiles for unseen genetic knockdowns and small-molecule compounds—without a language model and running entirely on **CPU**.
 
 ### Core Architecture
 
