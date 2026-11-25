@@ -50,7 +50,7 @@ Cyto comprises seven submodels that represent cellular state, support perturbati
 
 Together, the two axes provide a multiscale description of cellular state. The framework connects two complementary lines of inquiry: evidence generation and translational application.
 
-**Evidence generation.** An active-learning procedure guided by reinforcement learning identifies where model uncertainty is greatest and prioritizes measurements that can resolve it. New measurements update the relevant models, forming an iterative cycle between computational prediction and experimental validation.
+**Evidence generation.** Reinforcement-learning-guided active learning combines predictive uncertainty with existing omics evidence. It identifies cell states, regulatory programs, or tissue neighborhoods that remain insufficiently resolved and can be interrogated with available assays. These candidates guide transcriptomic, multi-omic, or perturbation assays that fill evidence gaps, separate competing hypotheses, and test candidate mechanisms. New measurements then update the relevant models, allowing computational predictions and experimental evidence to refine one another.
 
 **Translational application.** Cyto addresses spatiotemporal pathology, complex disease cohorts, and drug discovery. Shared benchmarks provide a common basis for comparison and evaluation.
 
