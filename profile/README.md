@@ -36,23 +36,23 @@
 
 **Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**.
 
-Cyto is not a single model, but a system of seven submodels designed to sense cellular state, support intervention, and evolve over time. Six domain modules form the spatial and temporal axes, while **Cyto.CoScientist** coordinates the discovery cycle across them.
+Cyto comprises seven submodels that represent cellular state, support perturbation, and capture changes over time. Six models form two complementary axes of cellular description, while **Cyto.CoScientist** integrates evidence across both axes to advance biological discovery.
 
 > [!IMPORTANT]
-> ### Cyto.CoScientist · Scientific Discovery Coordinator
+> ### Cyto.CoScientist · Scientific Discovery Coordination Layer
 >
-> **Cyto.CoScientist** connects predictions from the two axes to testable biological hypotheses. It supports the design and validation of cell-perturbation experiments, then carries the results into the next analysis cycle.
+> **Cyto.CoScientist** integrates evidence from the two axes into testable biological hypotheses. It supports the design and interpretation of perturbation experiments, then uses their outcomes to refine the next round of inquiry.
 
-| Axis | Purpose | Modules and progression |
+| Axis | Scientific role | Models and progression |
 | :--- | :--- | :--- |
-| **Spatial axis** | Resolves cell organization and omics relationships across spatial scales | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
-| **Temporal axis** | Characterizes a cell's current state and how it changes | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
+| **Spatial axis** | Integrates molecular regulation, single-cell multi-omics, and tissue-scale spatial context | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
+| **Temporal axis** | Relates current cell identity to natural trajectories and perturbation responses | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
 
-The two axes together define a cell's state in space and time. The model has two ends: a **data end** and an **application end**.
+Together, the two axes provide a multiscale description of cellular state. The framework connects two complementary lines of inquiry: evidence generation and translational application.
 
-**Data end.** A reinforcement-learning-based active-learning mechanism identifies where model uncertainty is highest, prioritizes measurements that can reduce that uncertainty, and returns newly generated data to the relevant modules. This forms an iterative loop between computational prediction and wet-lab validation.
+**Evidence generation.** An active-learning procedure guided by reinforcement learning identifies where model uncertainty is greatest and prioritizes measurements that can resolve it. New measurements update the relevant models, forming an iterative cycle between computational prediction and experimental validation.
 
-**Application end.** Cyto targets spatiotemporal pathology, complex disease cohorts, and drug discovery, with unified benchmarks for systematic comparison and evaluation.
+**Translational application.** Cyto addresses spatiotemporal pathology, complex disease cohorts, and drug discovery. Shared benchmarks provide a common basis for comparison and evaluation.
 
 ---
 
