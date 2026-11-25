@@ -34,13 +34,18 @@
 
 ## About the Cyto Family
 
-**Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**. Rather than treating cellular modeling as a single opaque black box, **Cyto System** organizes spatiotemporal cell capabilities into focused, composable modules with explicit biological grounding, leak-free evaluation protocols, and lightweight deployment.
+**Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**. Cyto is not a single model, but a system of seven state-aware, intervention-capable, and evolvable submodels for spatiotemporal cells. The system establishes a coordinate framework along two core dimensions: a **spatial axis** and a **temporal axis**.
 
-Our core design principles:
+| Axis | Core role | Submodels and progression |
+| :--- | :--- | :--- |
+| **Spatial axis · Read the cell** | Resolves relationships among omics layers across spatial scales | **Cyto.Genome** (molecular level) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
+| **Temporal axis · Infer the cell** | Resolves current identity, natural evolution, and counterfactual outcomes after intervention | **Cyto.Identity** (“who it is”) → **Cyto.Dynamics** (“how it will change”) → **Cyto.Perturbation** (“what happens after intervention”) |
 
-- **Biology-Grounded Modeling**: Explicitly combine curated biological priors with high-throughput single-cell measurements so models isolate perturbation- and state-specific signals instead of memorizing gene-level baseline biases.
-- **Rigorous & Leak-Free Benchmarking**: Evaluate on strictly held-out perturbations, cell lines, and compounds using fine-grained discrimination metrics (such as within-gene balanced accuracy and orthogonal MSE decomposition).
-- **Accessible & Reproducible Compute**: Deliver compact, integrity-verified checkpoints and transparent inference pipelines that run reliably in standard research environments—including CPU-only workstations.
+The intersection of the two axes captures the complete state of a spatiotemporal cell. Within this framework, **Cyto.CoScientist** acts as an autonomous scientist and closes the loop of scientific discovery by proposing biological hypotheses, designing cell-intervention experiments, validating results, and iterating.
+
+A reinforcement-learning-based active identification mechanism runs throughout the system. This active-learning paradigm identifies where model uncertainty is highest, guides targeted data production, and prioritizes the generation of high-value AI-ready data. These data flow back to train each module, connecting computational and experimental discovery in a closed wet-lab/dry-lab loop.
+
+Cyto is designed for applications including spatiotemporal pathology, complex disease cohorts, and drug discovery. A unified benchmarking framework supports model evaluation and advances exploration across the life sciences.
 
 ---
 
