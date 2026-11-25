@@ -48,9 +48,11 @@ Cyto is not a single model, but a system of seven submodels designed to sense ce
 | **Spatial axis** | Resolves cell organization and omics relationships across spatial scales | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
 | **Temporal axis** | Characterizes a cell's current state and how it changes | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
 
-The two axes together define a cell's state in space and time. Throughout the system, a reinforcement-learning-based active-learning mechanism identifies where model uncertainty is highest, prioritizes measurements that can reduce that uncertainty, and returns newly generated data to the relevant modules. This creates an iterative loop between computational prediction and wet-lab validation.
+The two axes together define a cell's state in space and time. The model has two ends: a **data end** and an **application end**.
 
-Cyto targets spatiotemporal pathology, complex disease cohorts, and drug discovery, with unified benchmarks for systematic comparison and evaluation.
+**Data end.** A reinforcement-learning-based active-learning mechanism identifies where model uncertainty is highest, prioritizes measurements that can reduce that uncertainty, and returns newly generated data to the relevant modules. This forms an iterative loop between computational prediction and wet-lab validation.
+
+**Application end.** Cyto targets spatiotemporal pathology, complex disease cohorts, and drug discovery, with unified benchmarks for systematic comparison and evaluation.
 
 ---
 
