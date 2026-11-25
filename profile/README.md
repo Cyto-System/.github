@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>Jointly developed by Beijing Zhongguancun Academy &amp; BGI Research</strong><br>
-  <sub>Building a state-aware, intervention-capable, and evolvable spatiotemporal cell system that connects molecular, single-cell, and tissue scales.</sub>
+  <sub>A multiscale spatiotemporal cell model family for the life sciences: reading cellular state, inferring its changes and intervention responses, and autonomously formulating and validating scientific questions.</sub>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 
 **Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**.
 
-The central objective of Cyto is to construct a state-aware, intervention-capable, and evolvable spatiotemporal cell system. Its central task is to link gene- and molecule-level information, single-cell states, and tissue-scale context within a unified cross-scale modeling framework.
+Cyto aims to build a state-aware, intervention-capable, and reasoning-enabled multiscale spatiotemporal cell system. Within one cross-scale modeling framework, it links gene- and molecule-level information, single-cell states, and tissue-scale context to read cellular state, infer its changes and intervention responses, and autonomously formulate and validate scientific questions.
 
 Cyto is not a single model, but a spatiotemporal cell system composed of seven submodels that represent cellular state, support perturbation, and capture changes over time. Six of these submodels form two complementary axes: a **spatial axis** and a **temporal axis**. Together, these axes characterize cellular state across scales. At the system level, **Cyto.CoScientist** integrates evidence from both axes to advance biological discovery.
 
@@ -44,7 +44,7 @@ Cyto is not a single model, but a spatiotemporal cell system composed of seven s
 | :--- | :--- | :--- |
 | **Scientific discovery coordination** | Integrates evidence from the spatial and temporal axes into testable biological hypotheses, supports the design and interpretation of perturbation experiments, and refines the next round of inquiry | **Cyto.CoScientist** |
 | **Spatial axis** | Integrates molecular regulation, single-cell multi-omics, and tissue-scale spatial context | **Cyto.Genome** (molecular regulation), **Cyto.Multiomics** (single-cell multi-omics), and **Cyto.Spatial** (tissue microenvironment / niche) |
-| **Temporal axis** | Relates current cell identity to natural trajectories and perturbation responses | **Cyto.Identity** (current identity), **Cyto.Dynamics** (natural trajectory), and **Cyto.Perturbation** (counterfactual response to intervention) |
+| **Temporal axis** | Infers state changes and intervention responses from the current cell identity | **Cyto.Identity** (current identity), **Cyto.Dynamics** (state changes over time), and **Cyto.Perturbation** (counterfactual response to intervention) |
 
 ---
 
