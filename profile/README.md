@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_system_banner_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_system_banner_light.svg">
-    <img alt="Cyto System — BGI Genomics & Zhongguancun Academy" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_system_banner_light.svg" width="84%">
+    <img alt="Cyto System — BGI Research & Zhongguancun Academy" src="https://raw.githubusercontent.com/Cyto-System/.github/main/profile/assets/cyto_system_banner_light.svg" width="84%">
   </picture>
 </p>
 
@@ -20,13 +20,13 @@
 </p>
 
 <p align="center">
-  <strong>Jointly developed by BGI Genomics / BGI Research &amp; Zhongguancun Academy</strong><br>
+  <strong>Jointly developed by BGI Research &amp; Zhongguancun Academy</strong><br>
   <sub>Building modular, verifiable, and practical computational models for virtual cell simulation and cellular response prediction.</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/Cyto-System"><img src="https://img.shields.io/badge/Organization-Cyto%20System-2f7d68.svg" alt="Cyto System"></a>
-  <a href="https://github.com/Cyto-System/Cyto.Perturbation"><img src="https://img.shields.io/badge/Institution-BGI%20Genomics%20%7C%20Zhongguancun%20Academy-2f7d68.svg" alt="BGI Genomics | Zhongguancun Academy"></a>
+  <a href="https://github.com/Cyto-System/Cyto.Perturbation"><img src="https://img.shields.io/badge/Institution-BGI%20Research%20%7C%20Zhongguancun%20Academy-2f7d68.svg" alt="BGI Research | Zhongguancun Academy"></a>
   <a href="https://huggingface.co/KassdinZheng/Cyto.Perturbation"><img src="https://img.shields.io/badge/HuggingFace-Cyto.Perturbation-yellow.svg" alt="Hugging Face"></a>
 </p>
 
@@ -34,7 +34,7 @@
 
 ## About the Cyto Family
 
-**Cyto** is a family of virtual cell models jointly developed by **BGI Genomics / BGI Research** and **Zhongguancun Academy**. Rather than treating cellular modeling as a single opaque black box, **Cyto System** organizes virtual cell capabilities into focused, composable modules with explicit biological grounding, leak-free evaluation protocols, and lightweight deployment.
+**Cyto** is a family of virtual cell models jointly developed by **BGI Research** and **Zhongguancun Academy**. Rather than treating cellular modeling as a single opaque black box, **Cyto System** organizes virtual cell capabilities into focused, composable modules with explicit biological grounding, leak-free evaluation protocols, and lightweight deployment.
 
 Our core design principles:
 
@@ -86,5 +86,5 @@ Our core design principles:
 ## Institutions
 
 **Cyto System** is jointly developed by:
-- **BGI Genomics / BGI Research**
+- **BGI Research**
 - **Zhongguancun Academy**
