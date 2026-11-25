@@ -36,7 +36,7 @@
 
 **Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**.
 
-Cyto comprises seven submodels that represent cellular state, support perturbation, and capture changes over time. Six models form two complementary axes of cellular description, while **Cyto.CoScientist** integrates evidence across both axes to advance biological discovery.
+Cyto comprises seven submodels that represent cellular state, support perturbation, and capture changes over time. Six of these models form two complementary axes of spatiotemporal cell modeling within Cyto: a **spatial axis** and a **temporal axis**. **Cyto.CoScientist** integrates evidence across both axes to advance biological discovery.
 
 > [!IMPORTANT]
 > ### Cyto.CoScientist · Scientific Discovery Coordination Layer
