@@ -44,7 +44,7 @@ Cyto comprises seven submodels that represent cellular state, support perturbati
 | **Spatial axis** | Integrates molecular regulation, single-cell multi-omics, and tissue-scale spatial context | **Cyto.Genome** (molecular regulation), **Cyto.Multiomics** (single-cell multi-omics), and **Cyto.Spatial** (tissue microenvironment / niche) |
 | **Temporal axis** | Relates current cell identity to natural trajectories and perturbation responses | **Cyto.Identity** (current identity), **Cyto.Dynamics** (natural trajectory), and **Cyto.Perturbation** (counterfactual response to intervention) |
 
-The central objective of Cyto is to construct a state-aware, intervention-capable, and evolvable spatiotemporal cell system. To this end, Cyto links genomic, single-cell-state, and tissue-scale information within one multiscale framework.
+The central objective of Cyto is to construct a state-aware, intervention-capable, and evolvable spatiotemporal cell system. Its central task is to link gene- and molecule-level information, single-cell states, and tissue-scale context within a unified cross-scale modeling framework.
 
 ---
 
