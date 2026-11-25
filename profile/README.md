@@ -48,7 +48,7 @@ Cyto comprises seven submodels that represent cellular state, support perturbati
 | **Spatial axis** | Integrates molecular regulation, single-cell multi-omics, and tissue-scale spatial context | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
 | **Temporal axis** | Relates current cell identity to natural trajectories and perturbation responses | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
 
-Together, the two axes provide a multiscale description of cellular state. The framework connects two complementary lines of inquiry: evidence generation and translational application.
+Within the Cyto system, the two axes provide a multiscale description of cellular state. The system as a whole connects two complementary lines of inquiry: evidence generation and translational application.
 
 **Evidence generation.** Reinforcement-learning-guided active learning combines predictive uncertainty with existing omics evidence. It identifies cell states, regulatory programs, or tissue neighborhoods that remain insufficiently resolved and can be interrogated with available assays. These candidates guide transcriptomic, multi-omic, or perturbation assays that fill evidence gaps, separate competing hypotheses, and test candidate mechanisms. New measurements then update the relevant models, allowing computational predictions and experimental evidence to refine one another.
 
