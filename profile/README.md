@@ -38,7 +38,7 @@
 
 Cyto aims to build a state-aware, intervention-capable, and reasoning-enabled multiscale spatiotemporal cell system. Within one cross-scale modeling framework, it links gene- and molecule-level information, single-cell states, and tissue-scale context to read cellular state, infer its changes and intervention responses, and autonomously formulate and validate scientific questions.
 
-Cyto is not a single model, but a spatiotemporal cell system composed of seven submodels that represent cellular state, support perturbation, and capture changes over time. Six of these submodels form two complementary axes: a **spatial axis** and a **temporal axis**. Together, these axes characterize cellular state across scales. At the system level, **Cyto.CoScientist** integrates evidence from both axes to advance biological discovery.
+Cyto is not a single model, but a spatiotemporal cell system composed of seven submodels that jointly read cellular state, infer its changes, and predict responses to intervention. Six of these submodels form two complementary axes: a **spatial axis** and a **temporal axis**. Together, these axes characterize cellular state across scales. At the system level, **Cyto.CoScientist** integrates evidence from both axes to advance biological discovery.
 
 | Component | Scientific role | Associated models |
 | :--- | :--- | :--- |
