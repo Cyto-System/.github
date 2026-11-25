@@ -38,13 +38,9 @@
 
 Cyto comprises seven submodels that represent cellular state, support perturbation, and capture changes over time. Six of these models form two complementary axes of spatiotemporal cell modeling within Cyto: a **spatial axis** and a **temporal axis**. **Cyto.CoScientist** integrates evidence across both axes to advance biological discovery.
 
-> [!IMPORTANT]
-> ### Cyto.CoScientist · Scientific Discovery Coordination Layer
->
-> **Cyto.CoScientist** integrates evidence from the two axes into testable biological hypotheses. It supports the design and interpretation of perturbation experiments, then uses their outcomes to refine the next round of inquiry.
-
-| Axis | Scientific role | Models and progression |
+| Layer | Scientific role | Models and progression |
 | :--- | :--- | :--- |
+| **Scientific discovery coordination** | Integrates evidence from the spatial and temporal axes into testable biological hypotheses, supports the design and interpretation of perturbation experiments, and refines the next round of inquiry | **Cyto.CoScientist** |
 | **Spatial axis** | Integrates molecular regulation, single-cell multi-omics, and tissue-scale spatial context | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
 | **Temporal axis** | Relates current cell identity to natural trajectories and perturbation responses | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
 
