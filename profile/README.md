@@ -34,23 +34,23 @@
 
 ## About the Cyto Family
 
-**Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**. Cyto is not a single model, but a system of seven state-aware, intervention-capable, and evolvable submodels for spatiotemporal cells. At the system level, **Cyto.CoScientist** orchestrates the six axis-aligned models, which are organized along a **spatial axis** and a **temporal axis**.
+**Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**.
+
+Cyto is not a single model, but a system of seven submodels designed to sense cellular state, support intervention, and evolve over time. Six functional modules form the spatial and temporal axes; the seventh, **Cyto.CoScientist**, coordinates them across the discovery cycle.
 
 > [!IMPORTANT]
-> ### Cyto.CoScientist · System Orchestrator
+> ### Cyto.CoScientist · Scientific Discovery Coordinator
 >
-> **Cyto.CoScientist** is the autonomous scientific layer of the Cyto system. It coordinates the six axis-aligned models, turns their outputs into testable biological hypotheses, designs cell-intervention experiments, validates the results, and iterates the discovery loop.
+> **Cyto.CoScientist** connects predictions from the two axes to testable biological hypotheses. It supports the design and validation of cell-perturbation experiments, then carries the results into the next analysis cycle.
 
-| Axis | Core role | Submodels and progression |
+| Axis | Purpose | Modules and progression |
 | :--- | :--- | :--- |
-| **Spatial axis · Read the cell** | Resolves relationships among omics layers across spatial scales | **Cyto.Genome** (molecular level) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
-| **Temporal axis · Infer the cell** | Resolves current identity, natural evolution, and counterfactual outcomes after intervention | **Cyto.Identity** (“who it is”) → **Cyto.Dynamics** (“how it will change”) → **Cyto.Perturbation** (“what happens after intervention”) |
+| **Spatial axis** | Resolves cell organization and omics relationships across spatial scales | **Cyto.Genome** (molecular regulation) → **Cyto.Multiomics** (single-cell multi-omics) → **Cyto.Spatial** (tissue microenvironment / niche) |
+| **Temporal axis** | Characterizes a cell's current state and how it changes | **Cyto.Identity** (current identity) → **Cyto.Dynamics** (natural trajectory) → **Cyto.Perturbation** (counterfactual response to intervention) |
 
-The intersection of the two axes captures the complete state of a spatiotemporal cell and provides the shared state representation through which **Cyto.CoScientist** drives closed-loop discovery.
+The two axes together define a cell's state in space and time. Throughout the system, a reinforcement-learning-based active-learning mechanism identifies where model uncertainty is highest, prioritizes measurements that can reduce that uncertainty, and returns newly generated data to the relevant modules. This creates an iterative loop between computational prediction and wet-lab validation.
 
-A reinforcement-learning-based active identification mechanism runs throughout the system under the coordination of **Cyto.CoScientist**. This active-learning paradigm identifies where model uncertainty is highest, guides targeted data production, and prioritizes the generation of high-value AI-ready data. These data flow back to train each module, connecting computational and experimental discovery in a closed wet-lab/dry-lab loop.
-
-Cyto is designed for applications including spatiotemporal pathology, complex disease cohorts, and drug discovery. A unified benchmarking framework supports model evaluation and advances exploration across the life sciences.
+Cyto targets spatiotemporal pathology, complex disease cohorts, and drug discovery, with unified benchmarks for systematic comparison and evaluation.
 
 ---
 
