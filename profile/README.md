@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>Jointly developed by Beijing Zhongguancun Academy &amp; BGI Research</strong><br>
-  <sub>Building modular, verifiable, and practical computational models for spatiotemporal cell simulation and cellular response prediction.</sub>
+  <sub>Building a state-aware, intervention-capable, and evolvable spatiotemporal cell system that connects molecular, single-cell, and tissue scales.</sub>
 </p>
 
 <p align="center">
