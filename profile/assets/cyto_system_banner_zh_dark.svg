@@ -7,6 +7,6 @@
   <text x="162" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#eefaf5">Cyto System</text>
   <rect x="662" y="44" width="140" height="32" rx="16" fill="#62c5a6"/>
   <text x="732" y="65" text-anchor="middle" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0c1b17" letter-spacing="1">时空细胞家族</text>
-  <text x="162" y="110" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="600" fill="#62c5a6">华大研究院  ·  北京中关村学院</text>
-  <text x="162" y="136" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#9bc5b7">Cyto 时空细胞模型家族 ｜ 模块化时空细胞基础模型与计算引擎</text>
+  <text x="162" y="110" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="17" font-weight="600" fill="#62c5a6">北京中关村学院  ·  华大研究院</text>
+  <text x="162" y="136" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#9bc5b7">Cyto 模型家族 ｜ 模块化时空细胞基础模型与计算引擎</text>
 </svg>
