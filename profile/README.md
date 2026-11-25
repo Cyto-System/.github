@@ -36,7 +36,7 @@
 
 **Cyto** is a family of spatiotemporal cell models jointly developed by **Beijing Zhongguancun Academy** and **BGI Research**.
 
-Cyto is not a single model, but a system of seven submodels designed to sense cellular state, support intervention, and evolve over time. Six functional modules form the spatial and temporal axes; the seventh, **Cyto.CoScientist**, coordinates them across the discovery cycle.
+Cyto is not a single model, but a system of seven submodels designed to sense cellular state, support intervention, and evolve over time. Six domain modules form the spatial and temporal axes, while **Cyto.CoScientist** coordinates the discovery cycle across them.
 
 > [!IMPORTANT]
 > ### Cyto.CoScientist · Scientific Discovery Coordinator
