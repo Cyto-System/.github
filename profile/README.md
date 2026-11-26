@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>Jointly developed by Beijing Zhongguancun Academy &amp; BGI Research</strong><br>
-  <sub>A multiscale spatiotemporal cell model family for the life sciences: reading cellular state, inferring its changes and intervention responses, and autonomously formulating and validating scientific questions.</sub>
+  <sub>Read cellular state; infer state changes; predict intervention responses; autonomously propose and validate scientific questions.</sub>
 </p>
 
 <p align="center">
