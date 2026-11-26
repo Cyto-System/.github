@@ -21,7 +21,7 @@
 
 <p align="center">
   <strong>Jointly developed by Beijing Zhongguancun Academy &amp; BGI Research</strong><br>
-  <sub>Read cellular state; infer state changes; predict intervention responses; autonomously propose and validate scientific questions.</sub>
+  <sub>Read cellular state, infer state changes, predict intervention responses, then autonomously propose and validate scientific questions.</sub>
 </p>
 
 <p align="center">
